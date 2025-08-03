@@ -1,0 +1,44 @@
+.categories-section {
+  background-color: #f3f3f3;
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  margin: 3rem auto;
+  max-width: 1200px;
+}
+
+.categories-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-family: 'Integral CF';
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background-color: white;
+}
+
+.category-img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.75rem;
+}
+.category-label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.5rem;
+}

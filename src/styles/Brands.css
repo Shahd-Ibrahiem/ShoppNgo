@@ -1,0 +1,24 @@
+.brands-section {
+  background-color: #1a1a1a;
+  padding: 30px 0;
+}
+
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.brand-logo {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(100%) contrast(100%);
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.05);
+}
